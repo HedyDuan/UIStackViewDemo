@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThirdViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIK-je-wZe">
+                    <rect key="frame" x="20" y="213.5" width="280" height="161"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="hpd-Xf-oLn">
+                            <rect key="frame" x="0.0" y="0.0" width="280" height="161"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子视图1子视图1子视图1子视图1子视图1子视图1子视图1子视图1子视图1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr4-Lc-evn">
+                                    <rect key="frame" x="0.0" y="77" width="109" height="84"/>
+                                    <color key="backgroundColor" red="0.7991979718208313" green="0.77815050731249369" blue="0.48227565214399493" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="109" id="FKG-6D-aQn"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="子视图2子视图2子视图2子视图2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ey7-Sy-GeG">
+                                    <rect key="frame" x="109" y="110.5" width="82" height="50.5"/>
+                                    <color key="backgroundColor" red="0.90741020441055298" green="0.51745781605460239" blue="0.63306223084849433" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="子视图3子视图3子视图3子视图3子视图3子视图3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S46-Iz-Cqj">
+                                    <rect key="frame" x="191" y="94" width="89" height="67"/>
+                                    <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="DZG-jA-IJU"/>
+                        <constraint firstItem="hpd-Xf-oLn" firstAttribute="width" secondItem="sIK-je-wZe" secondAttribute="width" id="HJl-by-pLX"/>
+                        <constraint firstAttribute="height" constant="161" id="Sm3-D1-gfB"/>
+                        <constraint firstItem="hpd-Xf-oLn" firstAttribute="height" secondItem="sIK-je-wZe" secondAttribute="height" id="Zxo-z7-GCi"/>
+                        <constraint firstItem="hpd-Xf-oLn" firstAttribute="leading" secondItem="sIK-je-wZe" secondAttribute="leading" id="aKE-GL-8P7"/>
+                        <constraint firstItem="hpd-Xf-oLn" firstAttribute="top" secondItem="sIK-je-wZe" secondAttribute="top" id="vFm-GP-d4H"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sIK-je-wZe" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="EY9-m7-gY0"/>
+                <constraint firstItem="sIK-je-wZe" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" id="sQE-LJ-Mjf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </view>
+    </objects>
+</document>
